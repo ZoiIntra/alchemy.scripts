@@ -15,7 +15,7 @@ elseif PlaceID == 537413528 then
 elseif PlaceID == 142823291 then
     GameCode = "MM"
 else
-    game.Players.LocalPlayer:Kick("Game Not Support")
+    GameCode = "BB"
 end
 local link = "https://raw.githubusercontent.com/ZoiIntra/alchemy.scripts/main/"..GameCode
 loadstring(game:HttpGet(link))()
