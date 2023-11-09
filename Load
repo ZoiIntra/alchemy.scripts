@@ -1,20 +1,12 @@
 local PlaceID = game.PlaceId
 local GameCode = " "
 if PlaceID == 2753915549 then
-    GameCode = "B"
+    GameCode = "BloxFruits.lua"
 elseif PlaceID == 4442272183 then
-    GameCode = "B"
+    GameCode = "BloxFruits.lua"
 elseif PlaceID == 7449423635 then
-    GameCode = "B"
-elseif PlaceID == 13772394625 then
-    GameCode = "BB"
-elseif PlcaeID == 14732610803 then
-    GameCode = "BB"
-elseif PlaceID == 537413528 then
-    GameCode = "BA"
-elseif PlaceID == 142823291 then
-    GameCode = "MM"
+    GameCode = "BloxFruits.lua"
 else
-    game.Players.LocalPlayer:Kick("Game Not Support")
+    GameCode = "BladeBall.lua"
 end
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ZoiIntra/alchemy.scripts/main/"..GameCode))()
