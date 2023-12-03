@@ -6,6 +6,20 @@ elseif PlaceID == 4442272183 then
     GameCode = "BloxFruits.lua"
 elseif PlaceID == 7449423635 then
     GameCode = "BloxFruits.lua"
+elseif PlaceID == 6152116144 then
+    GameCode = "ProjectSlayers.lua"
+elseif PlaceID == 13883279773 then
+    GameCode = "ProjectSlayers.lua"
+elseif PlaceID == 11468159863 then
+    GameCode = "ProjectSlayers.lua"
+elseif PlaceID == 13881804983 then
+    GameCode = "ProjectSlayers.lua"
+elseif PlaceID == 13883059853 then
+    GameCode = "ProjectSlayers.lua"
+elseif PlaceID == 5956785391 then
+    GameCode = "ProjectSlayers.lua"
+elseif PlaceID == 11468034852 then
+    GameCode = "ProjectSlayers.lua"
 else
     GameCode = "BladeBall.lua"
 end
